@@ -1,1 +1,1 @@
-# Detect-Profanity-in-Surabaya-Javanese-Dialect
+# Detect Profanity in Surabaya Javanese Dialect
