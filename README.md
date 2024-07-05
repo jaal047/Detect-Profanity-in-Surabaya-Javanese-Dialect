@@ -50,3 +50,21 @@ transcription = processor.batch_decode(predicted_ids)[0]
 print("Transkripsi:", transcription)
 ```
 Model dapat dilihat [disini](https://huggingface.co/Jaal047/profanity-javanese-sby)
+
+# Kesimpulan
+Penelitian deteksi perkataan vulgar dalam Bahasa Jawa dialek Surabaya pada konten video menggunakan speech-to-text menghasilkan kesimpulan berikut:
+
+1. **Peningkatan Performa Model**: Fine-tuning Model Multilingual Speech Recognition for Indonesian Languages dengan data perkataan vulgar dalam dialek Suroboyoan meningkatkan performa signifikan. Model mencapai Word Error Rate (WER) 8%, jauh di bawah target 15-20%, menunjukkan kemampuan tinggi dalam mengenali perkataan vulgar.
+
+2. **Efektivitas Preprocessing**: Tahapan preprocessing seperti noise reduction dan volume normalization mengurangi WER hingga 15%. Model speech-to-text mampu mendeteksi dan mentranskripsi perkataan vulgar, termasuk dalam kondisi video dengan dua pembicara bersamaan. Analisis teks juga efektif menentukan waktu kemunculan kata-kata kasar dengan akurasi baik.
+
+Secara keseluruhan, penelitian menunjukkan bahwa fine-tuning dengan data spesifik dan analisis teks tepat meningkatkan kemampuan model dalam mengenali, mentranskripsi, dan mengidentifikasi perkataan vulgar dalam dialek Suroboyoan, relevan untuk pengawasan konten media sosial dan platform video.
+
+# Saran
+Perluasan Data: Kumpulkan lebih banyak sampel audio dari berbagai sumber seperti YouTube, podcast, radio online, dan live streaming untuk meningkatkan adaptabilitas model terhadap variasi bahasa dan gangguan audio.
+
+1. **Integrasi Model Speech Separation**: Pertimbangkan penggunaan model seperti Recurrent Neural Network Transducer (RNN-T) yang dimodifikasi untuk mengatasi overlapping speech, efektif dalam mengenali dan membedakan ucapan dua pembicara secara bersamaan.
+
+2. **Penggunaan Model Bahasa**: Terapkan model bahasa untuk mengurangi WER dengan memperbaiki prediksi teks berdasarkan konteks dan struktur bahasa.
+
+3. **Pengembangan Sistem Real-Time**: Kembangkan sistem monitoring dan filtering berbasis real-time untuk platform video dan media sosial, yang dapat memberikan peringatan atau tindakan otomatis terhadap konten yang mengandung kata-kata vulgar.
