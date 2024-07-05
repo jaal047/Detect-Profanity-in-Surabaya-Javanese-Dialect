@@ -6,6 +6,7 @@ penelitian ini mengembangkan teknologi Speech-to-Text untuk mendeteksi perkataan
 
 # Model
 model yang dikembangkan ini merupakan hasil fine-tune dari model [indonesian-nlp/wav2vec2-indonesian-javanese-sundanese](https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese) menggunakan data [Profanity Speech Suroboyoan dataset](https://huggingface.co/datasets/Jaal047/profanity-speech-suroboyoan)
+
 Saat menggunakan model ini, pastikan input ucapan Anda diambil sampelnya pada 16kHz.
 
 ## Cara Menggunakan
