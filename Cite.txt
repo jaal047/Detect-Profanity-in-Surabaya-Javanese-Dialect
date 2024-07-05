@@ -1,0 +1,4 @@
+Sitasi Skripsi ini dapat ditulis sebagai berikut: 
+Khairulah, R. A. (2024). Deteksi Perkataan Vulgar Dalam Bahasa Jawa Dialek Surabaya Pada Konten Video Dengan Speech-To-Text. Skripsi. Surabaya: Universitas Airlangga. 
+
+Khairulah, R. A. (2024). Vulgar Speech Detection in Surabaya Javanese Dialect on Video Content with Speech-To-Text. Undergraduate Thesis. Surabaya: Universitas Airlangga.
