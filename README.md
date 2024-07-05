@@ -61,10 +61,10 @@ Penelitian deteksi perkataan vulgar dalam Bahasa Jawa dialek Surabaya pada konte
 Secara keseluruhan, penelitian menunjukkan bahwa fine-tuning dengan data spesifik dan analisis teks tepat meningkatkan kemampuan model dalam mengenali, mentranskripsi, dan mengidentifikasi perkataan vulgar dalam dialek Suroboyoan, relevan untuk pengawasan konten media sosial dan platform video.
 
 # Saran
-Perluasan Data: Kumpulkan lebih banyak sampel audio dari berbagai sumber seperti YouTube, podcast, radio online, dan live streaming untuk meningkatkan adaptabilitas model terhadap variasi bahasa dan gangguan audio.
+1. **Perluasan Data**: Kumpulkan lebih banyak sampel audio dari berbagai sumber seperti YouTube, podcast, radio online, dan live streaming untuk meningkatkan adaptabilitas model terhadap variasi bahasa dan gangguan audio.
 
-1. **Integrasi Model Speech Separation**: Pertimbangkan penggunaan model seperti Recurrent Neural Network Transducer (RNN-T) yang dimodifikasi untuk mengatasi overlapping speech, efektif dalam mengenali dan membedakan ucapan dua pembicara secara bersamaan.
+2. **Integrasi Model Speech Separation**: Pertimbangkan penggunaan model seperti Recurrent Neural Network Transducer (RNN-T) yang dimodifikasi untuk mengatasi overlapping speech, efektif dalam mengenali dan membedakan ucapan dua pembicara secara bersamaan.
 
-2. **Penggunaan Model Bahasa**: Terapkan model bahasa untuk mengurangi WER dengan memperbaiki prediksi teks berdasarkan konteks dan struktur bahasa.
+3. **Penggunaan Model Bahasa**: Terapkan model bahasa untuk mengurangi WER dengan memperbaiki prediksi teks berdasarkan konteks dan struktur bahasa.
 
-3. **Pengembangan Sistem Real-Time**: Kembangkan sistem monitoring dan filtering berbasis real-time untuk platform video dan media sosial, yang dapat memberikan peringatan atau tindakan otomatis terhadap konten yang mengandung kata-kata vulgar.
+4. **Pengembangan Sistem Real-Time**: Kembangkan sistem monitoring dan filtering berbasis real-time untuk platform video dan media sosial, yang dapat memberikan peringatan atau tindakan otomatis terhadap konten yang mengandung kata-kata vulgar.
